@@ -15,8 +15,6 @@ You can run this code by opening it in your preferred code editor.
 
 When you load into the start page, clicking Start Quiz wil run the quiz game. Answer the questions, and at the end you can enter your initials and have a High Score! 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
     
 ![Start Quiz Page](assets/images/Start-page.png)
 
