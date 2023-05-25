@@ -1,6 +1,6 @@
     var highScoresList = document.getElementById('highscores');
     var clearBtn = document.getElementById('clear');
-  
+  //event listeners and function call. 
     displayHighScores();
     clearBtn.addEventListener('click', clearHighScores);
   
@@ -11,7 +11,8 @@
       highScores.sort((a, b) => b.finalScore - a.finalScore);
   
       highScoresList.innerHTML = '';
-        //We then check if there is in fact any scores.
+        //We then check if there is in fact any scores. if there are none loaded from local storage (.legnth), then it'll just display
+        // a string of "no high scores yet."
       if (highScores.length === 0) {
         var noScoreItem = document.createElement('li');
         noScoreItem.textContent = 'No high scores yet.';
@@ -24,7 +25,7 @@
         });
       }
     }
-  
+  // This clears the high scores from local storage
     function clearHighScores() {
       localStorage.removeItem('highScores');
       displayHighScores();
