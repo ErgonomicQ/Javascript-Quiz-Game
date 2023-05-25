@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a Javascript Quiz Game as assigned by my Bootcap course. The Initial HTML (index.html, highscore.html) and CSS (style.css) were provided by the instruction course, as the module was to show understanding of Jaavscript's event listeners, DOM traversal elements and localStorage. I decided to make some minor edits to the coloring but otherwise, I have opt'd not to adjust the stylesheet. 
+This is a Javascript Quiz Game as assigned by my Bootcap course. The Initial HTML (index.html, highscore.html), CSS (style.css), and .WAV(though not utilized) were provided by the instruction course, as the module was to show understanding of Javascript's event listeners, DOM traversal elements and localStorage. I decided to make some minor edits to the coloring but otherwise, I have opt'd not to adjust the stylesheet. 
 
 This is a short quiz designed to test the user on their JS knowledge. It tracks time on the page, and if the user answers incorrectly, it subtracts time. It also adds that time to the final score. 
 
@@ -18,16 +18,16 @@ When you load into the start page, clicking Start Quiz wil run the quiz game. An
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
     
-    ![Start Quiz Page](assets\images\Start page.png)
+![Start Quiz Page](assets\images\Start-page.png)
 
     
-    ![Main Quiz Page](assets\images\quiz page.png)
+![Main Quiz Page](assets\images\quiz-page.png)
     
         
-    ![Initials Page](assets\images\high-score-initials.png)
+![Initials Page](assets\images\high-score-initials.png)
     
     
-    ![Leaderboard](assets\images\Leaderboard.png)
+![Leaderboard](assets\images\Leaderboard.png)
     
 
 
