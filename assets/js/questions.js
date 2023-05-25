@@ -25,4 +25,4 @@ var questions = [
     answer: "Document Object Model"}
 ];
 // This file contains the questions array only. Multiple scripts can be used, though their load order is exceptionally important
-// Since this is above gamelogic.js, this will be loaded first, and can be referenced by the former.
+// Since this is above logic.js, this will be loaded first, and can be referenced by the former.
